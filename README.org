@@ -1,0 +1,3 @@
+* BioChem
+
+Assignment for the class "Basics of biological chemistry" (Fall 2014)
