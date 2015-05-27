@@ -1,0 +1,83 @@
+\documentclass[11pt, a4paper,titlepage]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{soul}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{wasysym}
+\usepackage{latexsym}
+\usepackage{hyperref}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage[bottom]{footmisc}
+\tolerance=1000
+\usepackage[left=2.35cm, right=3.35cm, top=3.35cm, bottom=3.35cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[greek,english]{babel}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{tocbibind}
+\makeatletter
+\def\@seccntformat#1{%
+  \expandafter\ifx\csname c@#1\endcsname\c@section\else
+  \csname the#1\endcsname\quad
+  \fi}
+\makeatother
+\begin{document}
+
+\include{title}
+\setcounter{tocdepth}{3}
+
+\tableofcontents
+\newpage
+
+\section*{Question 1: Protein Family}
+\addcontentsline{toc}{section}{Question 1: Protein Family}
+
+
+\section*{Question 2: Tissues and Gene Expression}
+\addcontentsline{toc}{section}{Question 2: Tissues and Gene Expression} 
+
+
+\section*{Question 3: Development stages}
+\addcontentsline{toc}{section}{Question 3: Development stages}
+
+
+\section*{Question 4: Mutant strains}
+\addcontentsline{toc}{section}{Question 4: Mutant strains}
+
+ 
+\section*{Question 5: RNA interference phenotype}
+\addcontentsline{toc}{section}{Question : RNA interference phenotype5}
+
+
+\section*{Question 6: RNAi vs Deletion mutant phenotypes}
+\addcontentsline{toc}{section}{Question 6: RNAi vs Deletion mutant phenotypes}
+
+
+\section*{Question 7: Orthologous proteins}
+\addcontentsline{toc}{section}{Question 7: Orthologous proteins}
+
+
+\section*{Question 8: Function in orthologous genes}
+\addcontentsline{toc}{section}{Question 8: Function in orthologous genes}
+
+
+\section*{Question 9: Null mutant in yeast}
+\addcontentsline{toc}{section}{Question 9: Null mutant in yeast}
+
+
+\section*{Question 10: Scientific information availability}
+\addcontentsline{toc}{section}{10: Scientific information availability}
+
+
+\section*{Question 11: Model organism to further study}
+\addcontentsline{toc}{section}{11: Model organism to further study}
+
+\bibliographystyle{plain} \bibliography{bib-db}
+\end{document}
