@@ -29,43 +29,106 @@
 \tableofcontents
 \newpage
 
-\section*{Question 1: Protein Family}
-\addcontentsline{toc}{section}{Question 1: Protein Family}
+\section*{Question 1: Protein family}
+\addcontentsline{toc}{section}{Question 1: Protein family}
 
 \texttt{Q:} Which protein family does the egl-3 encoded protein belong to?
+\smallskip
 
+\noindent\texttt{A:} The egl-3 gene encodes a homolog of a mammalian
+proprotein convertase that participates in peptide secretion. Mature
+mRNA is translated to a polypeptide of which not all parts are
+important to the mature, activated protein. Parts will be cleaved, and
+that is typically done by a proprotein convertase.
 
-\section*{Question 2: Tissues and Gene Expression}
-\addcontentsline{toc}{section}{Question 2: Tissues and Gene Expression} 
+This information was found on the Wormbase website, on the egl-3 gene
+page. Then wikipedia helped to discover the function of proprotein
+convertase (understanding which may help to frame the context of
+subsequent questions).
+
+\section*{Question 2: Tissues and gene expression}
+\addcontentsline{toc}{section}{Question 2: Tissues and gene expression} 
 
 \texttt{Q:} In which tissues is egl-3 expressed in C. Elegans?
+\smallskip
 
+\noindent\texttt{A:} The information can be found in the
+\emph{Location} tab of the wormbase website. It is expressed in many
+tissues, notably the nervous tissues, in the tail, in the pharynx, and
+in the head.
 
 \section*{Question 3: Development stages}
 \addcontentsline{toc}{section}{Question 3: Development stages}
 
 \texttt{Q:} In which developmental stage is the egl-3 expressed?
+\smallskip
 
+\noindent\texttt{A:} In the same tab, you can see that it is expressed
+in postembryonic stages, ie the adult and larvae stages.
 
 \section*{Question 4: Mutant strains}
 \addcontentsline{toc}{section}{Question 4: Mutant strains}
 
 \texttt{Q:} Are there mutant strains for this gene available? What has
 been mutated in the gene? What is the resulting phenotype?
+\smallskip
 
+\noindent\texttt{A:} (additional instruction: take out the million
+mutant project). You can find the mutations in the \emph{Phenotype}
+section of the website. At the time of writing this report, there were
+6. Mutation nr2090, no strain available. Mutations N150 from strain
+MT150 (click on the \emph{variation} to see). Mutation N588 from
+strain MT1218. Mutation N589 from strain MT1219. Mutation N729 from
+strain MT1541. And finally mutation gk238, with strain VC461.
 
-\section*{Question 5: RNA interference phenotype}
-\addcontentsline{toc}{section}{Question : RNA interference phenotype5}
+For the phenotype, N150 is a substitution mutation inducing several
+different phenotypes. It is \emph{TS} (temperature sensitive
+allele). On the page for the allele, you will see the specific
+mutation (C->T) in the \emph{Molecular Details} tab.
+
+Other phenotypes include bag of worms, bloated, coiler, egg laying
+defective, egg retention, egg laying variant, post translational
+processing variant. You can get more info on what those phenotypes
+mean by clicking on them. You may be asked if another MO has a similar
+phenotype, but the names may be different, so understanding may help
+answering those kind of questions. If different MO have the same kind
+of phenotypes (like stop eating properly), you may infer that the gene
+may be functionally well conserved. You may also know of partner
+interactions in one MO and search for those in the other MO.
+
+\section*{Question 5: RNA interference phenotypes}
+\addcontentsline{toc}{section}{Question : RNA interference phenotypes}
 
 \texttt{Q:} What is the RNA-interference phenotype?
+\smallskip
 
+\noindent\texttt{A:} In the same location, on the gene page,
+\emph{phenotype} tab. There are a couple of additional alternative
+phenotypes observed with RNAi, including body wall muscle sarcomere
+morphology variant, extended life span, mitochondria morphology
+variant muscle, and protein degradation variant.
 
-\section*{Question 6: RNAi vs Deletion mutant phenotypes}
-\addcontentsline{toc}{section}{Question 6: RNAi vs Deletion mutant phenotypes}
+\section*{Question 6: RNAi vs deletion mutant phenotypes}
+\addcontentsline{toc}{section}{Question 6: RNAi vs deletion mutant phenotypes}
 
 \texttt{Q:} Are there differences between RNAi and deletion mutant
 phenotypes? If yes, explain why this is possible.
+\smallskip
 
+\noindent\texttt{A:} this question is a bit tricky, you have to rely
+on tested evidences to confirm (assays). But, some of the RNAi have no
+\emph{Allele} as supporting evidences, meaning that they have not been
+tested (for example, the \emph{body wall muscle sarcomere morphology
+  variant} which has only RNAi as supporting evidence.
+
+Should you expect a difference? There could be differences in PTM, and
+if the RNAi is used, the protein never reaches the stage of
+translation. If you have a deletion mutant, you may also observe a
+difference because RNAi (knock-down) is not as efficient as a
+knock-out of the gene. Many functions are dose-dependent, so if you
+have nothing, the function would be off, but with a little bit, you
+may still have partial function. Also, getting RNAi may be difficult
+to insert in some tissues (esp. nervous tissues).
 
 \section*{Question 7: Orthologous proteins}
 \addcontentsline{toc}{section}{Question 7: Orthologous proteins}
@@ -81,36 +144,96 @@ phenotypes? If yes, explain why this is possible.
 \end{itemize}
 Indicate for each of these species the biological process in which the
 protein is involved in and how this function was assessed
+\smallskip
 
+\noindent\texttt{A:} the go-to database to answer this question is
+\emph{NCBI homologene}. You will directly see many results there
+because the gene is well conserved. You could also check the Homology
+tab of the gene page on wormbase. For other nematodes, that may be the
+way to go since nematodes are wormbase's prime focus. Often, it is ok
+to start with NCBI to switch and investigate multiple organisms, but
+after first review, you should then go to the organism's db for up to
+date information (as they are updated more frequently).
+
+\begin{itemize}
+\itemsep0em 
+\item Other nematodes: there are quite a few listed on Wormbase
+  (C. remanei, C. brenneri, C. briggsae, C. japonica,
+  P. pacificus). egl-3 is very conserved in nematodes, all related to
+  peptidase activity (infered from orthology)
+\item Insects: there is a verified homolog in drosophilia (Flybase:
+  amon gene). This protein has a peptidase activity (inferred from
+  direct assay).
+\item Vertebrate species (non human): for example D. Rerio (ZFIN
+  database, gene name is pcsk2, molecular function). Hydrolase and
+  peptidase activities infered from experimental assays.
+\item Human: same gene (pcsk2).
+\item Unicellular organisms: no good homolog gene in Yeast. Why is
+  that? Because neuropeptide are communication molecules between
+  nervous system components. Yeast does communicate to, but they do
+  not have neuropeptide. The only distant gene homolog (KEX2) is
+  related to the same family as egl-3. These proteins cut out peptides
+  to activate them, which is a very general function, and that's why
+  there is a homolog. In higher organism these branched out to
+  specific uses (some cut neuropeptides for example). The function of
+  KEX2 is to encode a a2+ dependent serine protease involved in
+  proprotein processing, infered from direct assay. (SGD database,
+  KEX2 gene page, gene ontology, molecular function).
+\end{itemize}
 
 \section*{Question 8: Function in orthologous genes}
 \addcontentsline{toc}{section}{Question 8: Function in orthologous genes}
 
 \texttt{Q:} Is the function of this orthologous gene in yeast similar
 to its function in C. Elegans?
+\smallskip
 
+\noindent\texttt{A:} To find the function, you can search the SGD
+website, on the KEX2 page, it is a calcium-dependent serine protease
+involved in the activation of proproteins of the secretory
+pathway. Neuropeptides are also secreted proteins, but this KEX2 is
+not as specific (it is involved in a diverse array of secreted
+proteins - see SGD, summary paragraph).
 
 \section*{Question 9: Null mutant in yeast}
 \addcontentsline{toc}{section}{Question 9: Null mutant in yeast}
 
 \texttt{Q:} Is a null mutant for this gene available in yeast? What is
 the phenotype?
+\smallskip
 
+\noindent\texttt{A:} SGD, phenotype tab. There are a couple of mutants
+available there. With resistance decreased to alkaline pH, to acid pH,
+and other phenotypes suc as cell size increased, competitive fitness
+decreased, ...
 
 \section*{Question 10: Scientific information availability}
-\addcontentsline{toc}{section}{10: Scientific information availability}
+\addcontentsline{toc}{section}{Question 10: Scientific information availability}
 
 \texttt{Q:} What is the latest scientific information regarding the
 orthologue of this gene in yeast in relation to cell fusion and the
 process of mating in yeast?
+\smallskip
 
+\noindent\texttt{A:} SGD, literature tab. Search for keywords: Cell
+fusion, and mating. Reference: Aguilar PS, et al. (2010) Structure of
+sterol aliphatic chains affects yeast cell shape and cell fusion
+during mating. Proc Natl Acad Sci U S A 107(9):4170-5. Or another
+paper is: Heiman MG, et al. (2007) The Golgi-resident protease Kex2
+acts in conjunction with Prm1 to facilitate cell fusion during yeast
+mating. J Cell Biol 176(2):209-22 PMID:17210951 (which is the paper
+this question was refering to)
 
 \section*{Question 11: Model organism to further study}
-\addcontentsline{toc}{section}{11: Model organism to further study}
+\addcontentsline{toc}{section}{Question 11: Model organism to further study}
 
 \texttt{Q:} Which model organism would you choose to further study
 this gene and why?
+\smallskip
 
+\noindent\texttt{A:} this question was deemed too vague, because it
+actually depends on what you want to study. Some MO seem odd anyway
+regardless of the question, like yeast.
 
 \bibliographystyle{plain} \bibliography{bib-db}
 \end{document}
