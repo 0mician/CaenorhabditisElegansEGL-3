@@ -1,3 +1,3 @@
-* BioChem
+* CaenorhabditisElegansEGL-3
 
-Assignment for the class "Basics of biological chemistry" (Fall 2014)
+Assignment for the class "Model Organisms" (Spring 2015)
